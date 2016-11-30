@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/AlimentoFragment"
+            android:icon="@drawable/ic_menu_nutrientes"
+            android:title="Nutrientes" />
+        <item
+            android:id="@+id/CalculadorasFragment"
+            android:icon="@drawable/calculator"
+            android:title="Calculadoras" />
+        <item
+            android:id="@+id/TipicosFragment"
+            android:icon="@drawable/ic_menu_tipicos"
+            android:title="Alimentos tipicos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_calendario"
+            android:title="Calendario" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

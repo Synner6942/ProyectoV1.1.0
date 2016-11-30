@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.proyectov110">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Frutas"
+            android:label="@string/title_activity_frutas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Verduras"
+            android:label="@string/title_activity_verduras"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Carnes"
+            android:label="@string/title_activity_carnes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pescados"
+            android:label="@string/title_activity_pescados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lacteos"
+            android:label="@string/title_activity_lacteos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cereales"
+            android:label="@string/title_activity_cereales"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Legumbres"
+            android:label="@string/title_activity_legumbres"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrutosSecos"
+            android:label="@string/title_activity_frutos_secos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Info_alimentos"
+            android:label="@string/title_activity_info_alimentos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
